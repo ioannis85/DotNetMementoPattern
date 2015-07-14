@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Memento">
+    <Position X="1.073" Y="2.885" Height="0.312" Width="1.45" />
+  </Comment>
+  <Comment CommentText="CareTaker">
+    <Position X="1.042" Y="1.167" Height="0.312" Width="1.45" />
+  </Comment>
+  <Comment CommentText="Originator">
+    <Position X="4.99" Y="0.906" Height="0.312" Width="1.45" />
+  </Comment>
+  <Class Name="DotNetMementoPattern.Program" Collapsed="true">
+    <Position X="1" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DotNetMementoPattern.Auto">
+    <Position X="5" Y="1.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="DotNetMementoPattern.Auto.AutoMemento">
+        <TypeIdentifier>
+          <NewMemberFileName>Auto.cs</NewMemberFileName>
+        </TypeIdentifier>
+        <Lollipop Position="0.2" />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABQAAAAAAAAAAAQAAAAAAAAAAAAgAAAABAAA=</HashCode>
+      <FileName>Auto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="DotNetMementoPattern.IMemento">
+    <Position X="1" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>IMemento.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
